@@ -14,6 +14,12 @@
 - 脚本位置：C:\Users\admin\.openclaw\workspace\btc-monitor\price_monitor.py
 - 运行方式：pip install -r requirements.txt && python price_monitor.py
 
+### 自主成长系统
+- 状态：已建立
+- 闭环系统：autonomous-growth.md
+- 每日扫描：daily-scan/（每天早上9点自动触发）
+- 每周复盘：weekly-review/（每周一）
+
 ## 待处理
 - 支付宝账户申请中（汪辉在弄）
 - 手机卡（汪辉在弄）
