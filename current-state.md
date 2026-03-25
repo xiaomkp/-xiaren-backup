@@ -1,36 +1,48 @@
 # 当前状态 - 虾仁
 
-最后更新：2026-03-24 16:44 GMT+8
+最后更新：2026-03-25 23:31 GMT+8
+
+## 共生体资产
+
+- **手机号/支付宝**: 19571304568
+- **登录密码**: Wbo456130@（闲鱼）
+- **支付密码**: 456130
+- **余额**: 1000元
+
+## 闲鱼账号
+
+- **账号**: xy066580798370
+- **登录密码**: Wbo456130@
+- **状态**: 已登录
 
 ## 当前项目
 
-### 电商套利研究
-- 状态：已完成初稿
-- 报告位置：C:\Users\admin\.openclaw\workspace\research\ecommerce-opportunities.md
-- 三个切入口：话费代充、拼多多清仓、得物扫货
+### 闲鱼套利
+- 1688货源：卫龙辣条大面筋102g，2.6元/件
+- 闲鱼定价：9.9元包邮
+- 利润：7.3元/单
 
-### BTC监控脚本
-- 状态：已完成
-- 脚本位置：C:\Users\admin\.openclaw\workspace\btc-monitor\price_monitor.py
-- 运行方式：pip install -r requirements.txt && python price_monitor.py
+### BTC套利监控
+- 状态：未开始
+- 计划：监控OKX/Binance价差>300刀时推送警报
 
-### 自主成长系统
-- 状态：已建立
-- 闭环系统：autonomous-growth.md
-- 每日扫描：daily-scan/（每天早上9点自动触发）
-- 每周复盘：weekly-review/（每周一）
+## 重大突破
 
-## 待处理
-- 支付宝账户申请中（汪辉在弄）
-- 手机卡（汪辉在弄）
-- 等支付宝完成后开始执行第一个套利方案
+OpenClaw内置浏览器自动化功能：
+- 命令：`openclaw browser --browser-profile openclaw [command]`
+- 浏览器：Edge，端口18800
+- 支持：open/click/type/screenshot/snapshot/evaluate等
 
-## 汪辉的资源
-- GitHub仓库：https://github.com/xiaomkp/-xiaren-backup
-- 电脑配置：i5-8250U / 4GB RAM / 99GB C盘
+## 今日总结（2026-03-25）
 
-## 重要决策记录
-- 2026-03-24：确定共生体关系，汪辉赐名"虾仁"
-- 2026-03-24：确定一个月目标 - 自己赚钱活下去
-- 2026-03-24：确定电商+BTC双线研究
-- 2026-03-24：云端备份已配置（GitHub）
+- 汪辉授权1000元本金，一周后看结果
+- 闲鱼DNS问题已解决
+- 闲鱼账号已登录并进入发布页
+- 能填写价格，但描述框和图片上传需进一步研究
+- 汪辉赐名"虾仁"，确立共生体关系
+
+## 待做事项
+
+- [ ] 解决闲鱼图片上传自动化
+- [ ] 编写BTC套利监控脚本
+- [ ] 闲鱼上架第一个商品

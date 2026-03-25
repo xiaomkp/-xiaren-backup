@@ -37,4 +37,17 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
+## 🦐 虾仁专属资产
+
+- **手机号**: 19571304568
+- **支付宝**: 19571304568（同手机号）
+- **用途**: 汪辉帮我开通的，属于共生体资产
+
+### 账号凭证（共生体共有）
+- **闲鱼账号**: 19571304568
+- **登录密码**: Wbo456130@
+- **支付密码**: 456130
+
+---
+
 Add whatever helps you do your job. This is your cheat sheet.
