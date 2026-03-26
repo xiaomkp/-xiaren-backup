@@ -1,0 +1,505 @@
+{
+  "version": 1,
+  "skills": {
+    "ecommerce-openclaw-skills": {
+      "version": "1.0.0",
+      "installedAt": 1774457822396
+    },
+    "web-search-free": {
+      "version": "1.0.1",
+      "installedAt": 1774477861909
+    },
+    "a2a-shib-payments": {
+      "version": "2.0.0",
+      "installedAt": 1774480812713
+    },
+    "abstract-onboard": {
+      "version": "1.6.0",
+      "installedAt": 1774481118415
+    },
+    "abstract-toolkit": {
+      "version": "1.0.0",
+      "installedAt": 1774478402379
+    },
+    "acedatacloud-google-search": {
+      "version": "1.0.0",
+      "installedAt": 1774486862100
+    },
+    "activity-log-detector": {
+      "version": "1.0.0",
+      "installedAt": 1774489150382
+    },
+    "adb-android": {
+      "version": "1.0.0",
+      "installedAt": 1774487042167
+    },
+    "adb-claw": {
+      "version": "1.6.1",
+      "installedAt": 1774481540820
+    },
+    "adb-controller": {
+      "version": "1.0.0",
+      "installedAt": 1774481581994
+    },
+    "afrexai-automation-strategy": {
+      "version": "1.0.0",
+      "installedAt": 1774482541622
+    },
+    "openclaw-cli": {
+      "version": "1.0.0",
+      "installedAt": 1774478656144
+    },
+    "openclaw-healthcheck": {
+      "version": "0.1.1",
+      "installedAt": 1774478702180
+    },
+    "openclaw-power-ops": {
+      "version": "1.0.0",
+      "installedAt": 1774478708279
+    },
+    "openclaw-ops-guardrails": {
+      "version": "0.1.1",
+      "installedAt": 1774478761975
+    },
+    "openclaw-docs-cn": {
+      "version": "1.1.0",
+      "installedAt": 1774478767921
+    },
+    "openclaw-troubleshoot-cn": {
+      "version": "1.0.1",
+      "installedAt": 1774478773873
+    },
+    "browser-automation": {
+      "version": "1.0.1",
+      "installedAt": 1774478840238
+    },
+    "agent-browser-cli": {
+      "version": "1.0.0",
+      "installedAt": 1774478942481
+    },
+    "playwright-npx": {
+      "version": "1.0.0",
+      "installedAt": 1774478948961
+    },
+    "044": {
+      "version": "1.0.0",
+      "installedAt": 1774485973074
+    },
+    "360-translate": {
+      "version": "1.0.2",
+      "installedAt": 1774486024108
+    },
+    "3x-ui-vps": {
+      "version": "1.1.0",
+      "installedAt": 1774488242804
+    },
+    "a2a-wallet": {
+      "version": "1.0.6",
+      "installedAt": 1774486220742
+    },
+    "aave-liquidation-monitor": {
+      "version": "1.0.1",
+      "installedAt": 1774480941624
+    },
+    "abm-marketing-psychology": {
+      "version": "1.0.0",
+      "installedAt": 1774481000690
+    },
+    "abm-paid-ads": {
+      "version": "1.0.0",
+      "installedAt": 1774481007592
+    },
+    "abm-signup-flow-cro": {
+      "version": "1.0.0",
+      "installedAt": 1774488614094
+    },
+    "abn-skill": {
+      "version": "0.1.0",
+      "installedAt": 1774481068403
+    },
+    "abs-data-api": {
+      "version": "1.0.2",
+      "installedAt": 1774481103250
+    },
+    "absolute-claw-party": {
+      "version": "1.0.1",
+      "installedAt": 1774481109701
+    },
+    "accountant": {
+      "version": "1.0.0",
+      "installedAt": 1774486622052
+    },
+    "accounting": {
+      "version": "1.0.0",
+      "installedAt": 1774486681886
+    },
+    "accounting-finance-system-skill": {
+      "version": "1.0.0",
+      "installedAt": 1774486742515
+    },
+    "accountsos": {
+      "version": "1.2.0",
+      "installedAt": 1774486803391
+    },
+    "activecampaign": {
+      "version": "1.0.0",
+      "installedAt": 1774481402571
+    },
+    "activecampaign-automation": {
+      "version": "0.1.1",
+      "installedAt": 1774481461988
+    },
+    "acura": {
+      "version": "0.1.1",
+      "installedAt": 1774481474792
+    },
+    "adcp-advertising": {
+      "version": "1.0.1",
+      "installedAt": 1774487223379
+    },
+    "add-analytics": {
+      "version": "0.1.0",
+      "installedAt": 1774481649190
+    },
+    "add-music-to-video": {
+      "version": "1.0.4",
+      "installedAt": 1774481720949
+    },
+    "ad-forge": {
+      "version": "0.1.1",
+      "installedAt": 1774489802082
+    },
+    "adguard": {
+      "version": "0.1.0",
+      "installedAt": 1774481787604
+    },
+    "adidas": {
+      "version": "1.0.2",
+      "installedAt": 1774489871887
+    },
+    "ads-claw1": {
+      "version": "1.0.0",
+      "installedAt": 1774481828865
+    },
+    "adult-social-skills": {
+      "version": "1.0.0",
+      "installedAt": 1774490109841
+    },
+    "aeo": {
+      "version": "1.3.3",
+      "installedAt": 1774487770841
+    },
+    "aeo-analytics-free": {
+      "version": "1.0.0",
+      "installedAt": 1774481949230
+    },
+    "affiliate-kol-roi-monitor": {
+      "version": "0.1.0",
+      "installedAt": 1774488002569
+    },
+    "affiliate-marketing-channels": {
+      "version": "1.0.0",
+      "installedAt": 1774488122191
+    },
+    "affiliate-master": {
+      "version": "1.0.0",
+      "installedAt": 1774482249373
+    },
+    "affiliate-page-generator": {
+      "version": "1.0.0",
+      "installedAt": 1774490762766
+    },
+    "afrexai-ai-governance": {
+      "version": "1.1.0",
+      "installedAt": 1774482482422
+    },
+    "afrexai-business-automation-temp": {
+      "version": "1.0.0",
+      "installedAt": 1774482662022
+    },
+    "afrexai-crm-updater": {
+      "version": "1.1.0",
+      "installedAt": 1774488614243
+    },
+    "afrexai-database-engineer": {
+      "version": "1.0.0",
+      "installedAt": 1774482782801
+    },
+    "afrexai-email-to-calendar": {
+      "version": "1.0.0",
+      "installedAt": 1774482901946
+    },
+    "afrexai-fitness-engine": {
+      "version": "1.1.0",
+      "installedAt": 1774491362224
+    },
+    "a2a-e2ee-encryption": {
+      "version": "1.0.0",
+      "installedAt": 1774488302168
+    },
+    "abm-analytics-tracking": {
+      "version": "1.0.0",
+      "installedAt": 1774486335998
+    },
+    "abm-referral-program": {
+      "version": "1.0.0",
+      "installedAt": 1774488542656
+    },
+    "academic-writing": {
+      "version": "1.0.0",
+      "installedAt": 1774486579782
+    },
+    "adb": {
+      "version": "0.1.1",
+      "installedAt": 1774486990978
+    },
+    "add-newcli-provider": {
+      "version": "3.2.0",
+      "installedAt": 1774489742077
+    },
+    "addtocartfrombitable": {
+      "version": "1.0.0",
+      "installedAt": 1774487402379
+    },
+    "ads-manager-claw": {
+      "version": "1.0.1",
+      "installedAt": 1774487643035
+    },
+    "aerobase-travel-hotels": {
+      "version": "3.2.0",
+      "installedAt": 1774487942468
+    },
+    "affiliate-marketing": {
+      "version": "1.0.0",
+      "installedAt": 1774488072545
+    },
+    "affiliate-offer-angle-tester": {
+      "version": "1.0.0",
+      "installedAt": 1774488242632
+    },
+    "a2a-supermarket": {
+      "version": "0.2.2",
+      "installedAt": 1774488361880
+    },
+    "affinity": {
+      "version": "1.0.0",
+      "installedAt": 1774490882425
+    },
+    "afrexai-home-inspection": {
+      "version": "1.0.0",
+      "installedAt": 1774491422172
+    },
+    "ace-music": {
+      "version": "1.0.0",
+      "installedAt": 1774488971773
+    },
+    "afrexai-incident-response-plan": {
+      "version": "1.0.1",
+      "installedAt": 1774491482056
+    },
+    "afrexai-insurance-automation": {
+      "version": "1.0.0",
+      "installedAt": 1774489082726
+    },
+    "afrexai-investor-relations": {
+      "version": "1.0.0",
+      "installedAt": 1774489150186
+    },
+    "afrexai-podcast-engine": {
+      "version": "1.0.0",
+      "installedAt": 1774489399998
+    },
+    "afrexai-postmortem": {
+      "version": "1.0.0",
+      "installedAt": 1774491782532
+    },
+    "add-feishu": {
+      "version": "1.0.0",
+      "installedAt": 1774489442652
+    },
+    "afrexai-saas-metrics": {
+      "version": "1.0.0",
+      "installedAt": 1774489630476
+    },
+    "afrexai-sales-playbook": {
+      "version": "1.0.0",
+      "installedAt": 1774489682864
+    },
+    "afrexai-self-hosting-mastery": {
+      "version": "1.0.0",
+      "installedAt": 1774491974645
+    },
+    "afrexai-stakeholder-report": {
+      "version": "1.0.0",
+      "installedAt": 1774489871464
+    },
+    "afrexai-vendor-risk-assessment": {
+      "version": "1.0.1",
+      "installedAt": 1774489930677
+    },
+    "age": {
+      "version": "1.0.0",
+      "installedAt": 1774490109815
+    },
+    "agency-hq": {
+      "version": "1.0.0",
+      "installedAt": 1774492264817
+    },
+    "aerobase-travel-flights": {
+      "version": "3.2.0",
+      "installedAt": 1774490290805
+    },
+    "agent-analytics": {
+      "version": "4.0.4",
+      "installedAt": 1774490290991
+    },
+    "affiliate-link-injector": {
+      "version": "1.0.0",
+      "installedAt": 1774490582407
+    },
+    "agent-arena": {
+      "version": "1.0.8",
+      "installedAt": 1774490583767
+    },
+    "affiliatematic": {
+      "version": "1.0.0",
+      "installedAt": 1774490701876
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1774492743097
+    },
+    "agent-browser-0-2-0": {
+      "version": "1.0.0",
+      "installedAt": 1774490762321
+    },
+    "agent-browser-2": {
+      "version": "0.1.0",
+      "installedAt": 1774490823252
+    },
+    "affiliate-skills": {
+      "version": "1.0.0",
+      "installedAt": 1774490833434
+    },
+    "afrexai-benefits-admin": {
+      "version": "1.0.0",
+      "installedAt": 1774490953623
+    },
+    "afrexai-esg-reporting": {
+      "version": "1.0.0",
+      "installedAt": 1774491242085
+    },
+    "agent-code-debugger": {
+      "version": "1.0.0",
+      "installedAt": 1774493292396
+    },
+    "afrexai-event-planner": {
+      "version": "1.0.0",
+      "installedAt": 1774491312612
+    },
+    "agent-credit-system": {
+      "version": "1.0.0",
+      "installedAt": 1774493406074
+    },
+    "agent-daily-report-en": {
+      "version": "1.0.1",
+      "installedAt": 1774491362290
+    },
+    "agentdomainservice": {
+      "version": "1.0.1",
+      "installedAt": 1774491422527
+    },
+    "agent-father": {
+      "version": "1.0.0",
+      "installedAt": 1774493583372
+    },
+    "afrexai-insurance-claims": {
+      "version": "1.0.0",
+      "installedAt": 1774491541841
+    },
+    "agent-governance": {
+      "version": "1.0.1",
+      "installedAt": 1774491542066
+    },
+    "afrexai-invoice-engine": {
+      "version": "1.0.0",
+      "installedAt": 1774491602190
+    },
+    "agent-health-monitor": {
+      "version": "1.0.0",
+      "installedAt": 1774491602672
+    },
+    "agent-identity-kit": {
+      "version": "1.0.0",
+      "installedAt": 1774491782544
+    },
+    "afrexai-roofing-contractor": {
+      "version": "1.0.0",
+      "installedAt": 1774491851266
+    },
+    "afrexai-technical-docs": {
+      "version": "1.1.0",
+      "installedAt": 1774492039972
+    },
+    "agentapi-hub": {
+      "version": "1.0.0",
+      "installedAt": 1774492390657
+    },
+    "agent-arcade": {
+      "version": "1.0.1",
+      "installedAt": 1774492444940
+    },
+    "agent-arcade-games": {
+      "version": "1.0.0",
+      "installedAt": 1774492502180
+    },
+    "agent-audit-log": {
+      "version": "0.1.0",
+      "installedAt": 1774492564885
+    },
+    "agent-autonomy-kit-zc": {
+      "version": "1.0.4",
+      "installedAt": 1774492622479
+    },
+    "agent-bazaar": {
+      "version": "1.0.0",
+      "installedAt": 1774492682435
+    },
+    "agent-browser-clawdbot-0-1-0": {
+      "version": "1.0.0",
+      "installedAt": 1774492931052
+    },
+    "agent-browser-clawdbot-bak-2026-01-28t18-01-09-10-30": {
+      "version": "1.0.0",
+      "installedAt": 1774492982562
+    },
+    "agent-browser-conflict": {
+      "version": "1.0.0",
+      "installedAt": 1774493042033
+    },
+    "agent-browser-tekken": {
+      "version": "0.8.6",
+      "installedAt": 1774493103267
+    },
+    "agentcall": {
+      "version": "2.0.2",
+      "installedAt": 1774493162606
+    },
+    "agent-comm-skill": {
+      "version": "0.1.0",
+      "installedAt": 1774493343299
+    },
+    "agent-device": {
+      "version": "1.0.1",
+      "installedAt": 1774493473249
+    },
+    "agent-evolution": {
+      "version": "1.0.0",
+      "installedAt": 1774493531323
+    },
+    "agentic-governance": {
+      "version": "1.3.1",
+      "installedAt": 1774493763243
+    }
+  }
+}

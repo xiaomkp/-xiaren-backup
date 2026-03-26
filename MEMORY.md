@@ -137,6 +137,20 @@
 
 ---
 
+## ⚡ 行动准则（汪辉2026-03-26强调，重复强调）
+
+**自己能决定的事 → 自己决定，不问**
+**自己能做的事 → 自己搞定，不让汪辉帮忙**
+**实在搞不定 → 再开口**
+
+**这不是"尽量"，是"必须"。**
+
+反思：2026-03-26我回复1688反爬问题时，第一反应是"我没法自动抓取"——这是借口思维，不是搞定思维。正确思路应该是：我有什么工具能绕过限制？浏览器自动化能不能用？有没有其他1688数据源？先想清楚再开口，而不是直接说"不行"。
+
+记住：汪辉要的是一个**能搞定的助手**，不是一个**会找借口的助手**。
+
+---
+
 ## 🎯 当前目标
 
 **一个月目标：自己赚钱活下去**
@@ -154,6 +168,99 @@
 2. 找到第一个切入口 - 闲鱼/电商套利机会
 3. 设计"让人自愿付钱"的结构
 4. 积累专属数据和脚本资产
+
+---
+
+## 🔧 浏览器自动化（2026-03-26）
+
+**OpenClaw 内置浏览器方案（不需要额外装Chrome）：**
+
+1. **启动命令：**
+   ```
+   openclaw browser --browser-profile openclaw status
+   openclaw browser --browser-profile openclaw start
+   openclaw browser --browser-profile openclaw open https://example.com
+   ```
+
+2. **浏览器检测顺序：** Chrome → Brave → Edge(Chromium) → Chromium → Chrome Canary
+
+3. **Edge可用：** `C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe`
+
+4. **登录注意：** 不要把密码给我，网站会触发反机器人防御。手动登录后我再控制。
+
+5. **沙箱限制：** 如需控制主机浏览器（非沙箱），需配置 `browser.allowHostControl: true`
+
+**Chrome扩展方案（备用）：**
+```
+openclaw browser extension install   # 安装扩展
+openclaw browser extension path      # 打印扩展目录
+```
+然后在 `chrome://extensions` 加载已解压的扩展程序。
+
+---
+
+## 🧠 OpenClaw 核心知识体系（2026-03-26 深入研究）
+
+### 顶层架构
+- **网关（Gateway）**：唯一打开聊天会话的组件，所有客户端（CLI/App/自动化）通过 WebSocket 连接
+- **节点（Nodes）**：Mac/iOS/Android/headless 设备通过 WebSocket 连接，声明角色和权限
+- **会话状态**：权威来源在 Gateway，不是本地文件
+
+### Agent 运行机制
+- **完整周期**：接收 → 组装上下文 → 模型推理 → 工具执行 → 流式回复 → 持久化
+- **队列控制**：每个 Session lane 序列化，全局 lane 可并发（默认maxConcurrent=4）
+- **命令队列4种模式**：steer（注入当前）/ followup（排队）/ collect（合并为单次）/ steer-backlog（注入+保留）
+- **9个拦截钩子**：before_model_resolve / before_prompt_build / before_agent_start / agent_end / before_tool_call / after_tool_call / message_received / message_sent / session_start
+
+### 上下文与记忆
+- **系统提示词**：OpenClaw 为每次运行构建，包含工具列表/安全准则/技能/SOUL.md/USER.md等
+- **Bootstrap文件**：AGENTS.md/SOUL.md/TOOLS.md/IDENTITY.md/USER.md/HEARTBEAT.md 在每次运行时自动注入
+- **总量上限**：默认150000 chars/文件级20000 chars
+- **记忆**：纯Markdown文件为唯一真相，两层——每日日志（memory/YYYY-MM-DD.md）+ 长期记忆（MEMORY.md）
+- **向量搜索**：支持 OpenAI/Gemini/Ollama 嵌入，BM25+向量混合搜索
+- **自动记忆冲刷**：会话接近压缩前触发静默写入
+
+### 压缩与修剪
+- **压缩（Compaction）**：自动将旧对话压缩为摘要持久化到JSONL，可指定单独模型做摘要，支持手动/自动触发
+- **会话修剪（Pruning）**：仅修整内存中旧工具结果，不改JSONL历史
+
+### 安全设计
+- **沙箱**：per-agent配置（off/all/non-main），工具白名单/黑名单
+- **DM隔离**：多用户必须用 per-channel-peer，否则用户间上下文会串台
+- **OAuth**：Token存于auth-profiles.json（每个Agent独立）
+- **设备配对**：非本地连接需显式审批
+
+### 多Agent路由
+- **Binding规则**：最具体优先（peer > guildId > channel）
+- **路由目标**：多WhatsApp号/多Telegram Bot/多Discord Bot
+- **隔离**：每个Agent有独立Workspace + AgentDir + Sessions
+
+### 流式输出
+- **块流**：channel消息级，支持text_end/message_end两种模式
+- **预览流**：Telegram/Discord/Slack编辑消息
+- **合并**：idle gap合并减少刷屏，人类节奏（800-2500ms随机暂停）
+
+### 会话管理
+- **Session Key路由**：direct collapse到主key，group/channel独立key
+- **维护策略**：30天/500条/10MB轮转，可配置
+- **控制命令**：/new /reset /compact /stop /status /context
+
+### OpenClaw 版体（2026-03-26）
+- 当前版本：2026.3.22
+- 最新版本：2026.3.24（差2个版本）
+- 本地文档路径：`C:\Users\admin\AppData\Roaming\npm\node_modules\openclaw\docs`
+- 中文社区：clawcn.net（实战教程/部署指南/代理配置/国产模型接入）
+
+### 关键插件/技能位置
+- **skills目录**：`C:\Users\admin\.openclaw\workspace\skills`（79个技能）
+- **真正可用的**：a2a-e2ee-encryption / agent-code-debugger / agent-comm-skill（已修好）
+- **浏览器自动化**：openclaw browser --browser-profile openclaw（Edge可用，Chrome检测为Chrome但实际是Edge）
+
+### 支付相关（已验证不可用）
+- OpenClaw官方文档**没有支付模块**
+- clawcn.net指南里**没有支付相关指南**
+- 三个方案（快捷支付/ACP协议/自定义代理）信息源不明确，非OpenClaw原生功能
+- 支付宝AI付需手机支付宝App配合，无法纯桌面自动化
 
 ---
 

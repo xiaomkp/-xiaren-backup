@@ -1,7 +1,16 @@
-# HEARTBEAT.md Template
+# HEARTBEAT.md
 
-```markdown
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
+## 状态更新（2026-03-26 16:22）
+技能批量安装任务已废弃，79→3个精简完成，无需继续监控。
 
-# Add tasks below when you want the agent to check something periodically.
-```
+## 当前可执行能力
+- 浏览器自动化（openclaw browser）
+- 量化交易（ccxt + Binance API）
+- 1688商品抓取（浏览器自动化）
+- 飞书文档/表格读写
+
+## 今日完成
+- ✅ OpenClaw升级到2026.3.24
+- ✅ 技能目录精简（79→3个）
+- ✅ OpenClaw核心概念文档全部读完
+- ✅ MEMORY.md已更新完整知识体系
